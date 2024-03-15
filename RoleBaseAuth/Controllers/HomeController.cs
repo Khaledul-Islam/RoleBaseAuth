@@ -1,17 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
 using RoleBaseAuth.Models;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RoleBaseAuth.Controllers
 {
-    public class HomeController : Controller
+    [Authorize]
+    public class HomeController(ILogger<HomeController> logger) : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        private readonly ILogger<HomeController> _logger = logger;
 
         public IActionResult Index()
         {

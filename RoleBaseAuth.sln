@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBaseAuth", "RoleBaseAuth\RoleBaseAuth.csproj", "{2E6862C0-2C78-4809-9E58-D311AF3B9FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoleBaseAuth", "RoleBaseAuth\RoleBaseAuth.csproj", "{2E6862C0-2C78-4809-9E58-D311AF3B9FEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
